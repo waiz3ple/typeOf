@@ -1,25 +1,25 @@
 {
   "name": "typeof",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Node module. typeOf('a string') == 'string', typeOf([]) == 'array', etc.. Also supports named functions detections aka javascript classes",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec --compilers coffee:coffee-script test.coffee"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "http://github.com/CodingFu/typeof"
   },
   "keywords": [
-    "typeof", "type"
+    "typeof",
+    "type"
   ],
-
   "author": "Seva Rybakov",
+  "contributors": [
+    "Wasiu Ramoni (http://twitter.com/waiz3ple)"
+  ],
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
-    "coffee-script": "~1.4.0",
-    "mocha": "~1.6.0",
-    "assert": "~0.4.9"
+    "jest": "^29.7.0"
   }
 }
